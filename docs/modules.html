@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Template Design Manual</title>
+<style type="text/css">
+body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.4em; color: #333; margin: 0px; padding: 0px; }
+h4 { background-color: #CCC; margin: 0px; padding: 5px; font-size: 14px; }
+.wrap { width: 920px; margin-top: 30px; margin-right: auto; margin-bottom: 30px; margin-left: auto; border: 1px solid #CCC; padding: 10px; }
+.red { color: #F00; }
+.green { color: #093; }
+.block { display: block; background-color: #F0F0F0; }
+</style>
+</head>
+
+<body>
+<div class="wrap">
+  <h4>Top Modules Structure:</h4>
+&lt;div id=&quot;topmodule&quot;&gt;<br />
+&lt;div class=&quot;topmodule-outer&quot;&gt;<br /> 
+<em><strong>&lt;-- Start Repeating Here --&gt; </strong></em><br />
+&lt;div class=&quot;topmodule-wrap&quot; style=&quot;width:100/$total%;float:left;&quot;&gt;<br />
+&lt;div class=&quot;topmodule-inner&quot;&gt;<br />
+<span class="green"><strong>&lt;h3&gt;Module Title&lt;/h3&gt;</strong></span><strong><br />
+<span class="green">&lt;div class=&quot;mod-body&quot;&gt;Module Body&lt;/div&gt;</span></strong><span class="green"></span><br />
+&lt;/div&gt;<br />
+&lt;/div&gt;<br />
+<em><strong>&lt;-- End Repeating Here --&gt;</strong></em><br />
+&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;<br />
+&lt;/div&gt;<br />
+&lt;/div&gt;<br />
+<h4>Bottom Modules Structure:</h4>
+&lt;div id=&quot;botmodule&quot;&gt;<br />
+&lt;div class=&quot;botmodule-outer&quot;&gt;<br />
+<em><strong>&lt;-- Start Repeating Here --&gt; </strong></em><br />
+&lt;div class=&quot;botmodule-wrap&quot;style=&quot;width:100/$total%;float:left;&quot;&gt;<br />
+&lt;div class=&quot;botmodule-inner&quot;&gt;<br />
+<span class="green"><strong>&lt;h3&gt;Module Title&lt;/h3&gt;</strong></span><br />
+<strong><span class="green">&lt;div class=&quot;mod-body&quot;&gt;Module Body&lt;/div&gt;</span></strong><br />
+&lt;/div&gt;<br />
+&lt;/div&gt;<br />
+<em><strong>&lt;-- End Repeating Here --&gt;</strong></em><br />
+&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;<br />
+&lt;/div&gt;<br />
+&lt;/div&gt;<br />
+<h4>Left Modules Structure:</h4>
+<em><strong>&lt;-- Start Repeating Here --&gt; </strong></em><br />
+<strong class="green">&lt;h3&gt;Module Title&lt;/h3&gt;<br />
+&lt;div class=&quot;mod-body&quot;&gt;Module Body&lt;/div&gt;</strong><br />
+<em><strong>&lt;-- End Repeating Here --&gt;</strong></em>
+<h4>Right Modules Structure:</h4>
+<em><strong>&lt;-- Start Repeating Here --&gt; </strong></em><br />
+<strong class="green">&lt;h3&gt;Module Title&lt;/h3&gt;<br />
+&lt;div class=&quot;mod-body&quot;&gt;Module Body&lt;/div&gt;</strong><br />
+<em><strong>&lt;-- End Repeating Here --&gt;</strong></em><br />
+</div>
+</body>
+</html>

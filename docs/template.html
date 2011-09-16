@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Template Design Manual</title>
+<style type="text/css">
+body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.4em; color: #333; margin: 0px; padding: 0px; }
+h4 { background-color: #CCC; margin: 0px; padding: 5px; font-size: 14px; }
+.wrap { width: 920px; margin-top: 30px; margin-right: auto; margin-bottom: 30px; margin-left: auto; border: 1px solid #CCC; padding: 10px; }
+.red { color: #F00; }
+.green { color: #093; }
+.block { display: block; background-color: #F0F0F0; }
+</style>
+</head>
+
+<body>
+<div class="wrap">
+  <h4>Each Template file must have the following structure:</h4>
+  Within your head tags you must include:<br />
+  <strong>&lt;head&gt;</strong><br /><span class="red">&lt;?php echo $content-&gt;getMeta(); ?&gt;</span><br />Here goes your styles and java scripts...
+  <span class="red"><br />
+  &lt;?php echo $content-&gt;getModuleAssets();?&gt;</span><br />
+  <strong>&lt;/head&gt;
+</strong><br />
+<br />
+<strong>&lt;body&gt;</strong><br />
+<strong>To draw menu include:</strong><br />
+<span class="red">&lt;?php $mainmenu = $content-&gt;getMenuList(); $content-&gt;getMenu($mainmenu,0);?&gt;</span><br />
+<br />
+<strong>For Top Modules include:</strong><br />
+<span class="red">&lt;?php if ($modtop != 0): ?&gt;<br />
+&lt;?php include(WOJOLITE . &quot;includes/top_modules.php&quot;);?&gt;<br />
+&lt;?php endif; ?&gt; </span><br />
+<br />
+<strong>For Bottom Modules include</strong>:<br />
+  <span class="red">&lt;?php if ($modbot != 0): ?&gt;<br />
+&lt;?php include(WOJOLITE . &quot;includes/bot_modules.php&quot;);?&gt;<br />
+&lt;?php endif; ?&gt;</span><br />
+<br />
+<h4>Keep this section together for dynamic layout switching:</h4>
+<span class="block"><strong>For Left &amp; Right Modules: </strong><br />
+<span class="red">&lt;?php if($totalleft &gt;= 1 &amp;&amp; $totalright &gt;= 1):?&gt;<br />
+&lt;?php include(WOJOLITE . &quot;includes/left_modules.php&quot;);?&gt;<br />
+&lt;?php include(WOJOLITE . &quot;includes/right_modules.php&quot;);?&gt;<br />
+&lt;?php $content-&gt;displayPage();?&gt;</span><br />
+<br />
+<strong>For Left  Modules: </strong><br />
+<span class="red">&lt;?php elseif($totalleft &gt;= 1):?&gt;<br />
+&lt;?php include(WOJOLITE . &quot;includes/left_modules.php&quot;);?&gt;<br />
+&lt;?php $content-&gt;displayPage();?&gt;</span><br />
+<br />
+<strong>For Right Modules: </strong><br />
+<span class="red">&lt;?php elseif($totalright &gt;= 1):?&gt;<br />
+&lt;?php include(WOJOLITE . &quot;includes/right_modules.php&quot;);?&gt;<br />
+&lt;?php $content-&gt;displayPage();?&gt;</span><br />
+<br />
+<strong>For Full Layout: </strong><br />
+<span class="red">&lt;?php else:?&gt;<br />
+&lt;?php $content-&gt;displayPage();?&gt;<br />
+&lt;?php endif;?&gt; </span></span><br />
+<strong>&lt;/body&gt; </strong><br />
+<h4>Variables to use:</h4>
+Company Name - <span class="green">&lt;?php echo $core-&gt;company;?&gt;</span><br />
+Website Name - <span class="green">&lt;?php echo $core-&gt;site_name;?&gt;</span><br />
+Website Email - <span class="green">&lt;?php echo $core-&gt;site_email;?&gt;</span> <br />
+Website URL - <span class="green">&lt;?php echo SITEURL;?&gt;</span><br />
+Theme URL - <span class="green">&lt;?php echo THEMEURL;?&gt;</span> <br />
+<br />
+
+</div>
+</body>
+</html>

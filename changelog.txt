@@ -1,0 +1,47 @@
+﻿ 
+// ACTIVE CMS
+// FICHIER CHANGE LOG
+
+///////// VERSION 2.0 DEV ///////////
+
+##version 2.0 dev
+#Gestionnaire de layout native
+#Gestionnaire de widgets
+#Optimisation du code et des classes
+
+///////// VERSION 1.2.0 FINAL ///////////
+
+##version 1.2.0 final
+#Nouvelle structure et conception
+#Toucher au désigne du back-office 
+#Insertion du gestionnaire de NEWSLETTER
+#Administration/site multinlangues 
+#AJAX pour accelerer le temps de reponse
+#Etendre les droit des utilisateurs
+#Modulaires
+#Programmation objet PHP5 POO
+
+
+///////// VERSION 1.1.2 //////////
+
+##version 1.1.2 Final
+#Correction de certains bug de la version précédente
+#Correction d'erreurs de connection base de donnees mysql
+#Insertion du gestionnaire des templates
+#Changement de l'editeur WYSIWYG pour les gestion des medias
+
+
+///////// VERSION 1.1.1 //////////
+
+##version 1.1.1 Dev
+#Changement du thème
+#Insertion du AJAX pour accelerer le temps de reponse
+#Correction d'erreurs de connection base de donnees mysql
+#Insertion du gestionnaire des templates
+#Changement de l'editeur WISWYG pour les gestion des medias
+
+
+////// PREMIERE VERSION ////////
+
+##version 1.0.0 final
+#Premiere sortie

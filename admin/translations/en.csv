@@ -1,0 +1,136 @@
+Active CMS | Administration;Active CMS | Administration
+Bienvenue;Welcome
+Tableau de bord;Scoreboard
+Ajouter une page;Add a page
+Paramètre des pages;Parameter Changes
+Paramètre du site;Site Settings
+Editeur de template;Publisher template
+Pour voir merci d'activer le mailing dans les paramètre du site;To activate see thank you for mailing in the setting of the site
+Gestionnaire de Mail;Mail Manager
+Configuration de fichier INI;INI configuration file
+Modules complémentaires;Ons
+Prévisualiser;Preview
+Ajouter un utilisateur;Add User
+Paramètre des utilisateurs;User settings
+Votre iP : ;Your IP:
+Nous Somme le ;We Are the
+Le répertoire de l'installation est toujours présent !<br />;
+			   Veuillez supprimer, déplacer ou renommer ce répertoire avant d'utiliser votre site.;The installation directory is still there! <br /> Please delete, move or rename the directory before using the site.
+Gestion des pages;Management Changes
+Gestion des utilisateurs;Managing Users
+Gestion de template;Template handler
+Configuration;Configuration
+Newsletters;Newsletters
+Prévisulaiser;Prévisulaiser
+Aide;Help
+Page chargé en ;Page loaded in
+ millisecondes. ;milliseconds.
+Propulsé par;Powered by
+A Propos;About
+C'est une solution entièrement basée sur PHP/Mysql, jQuery et AJAX;This is a solution based entirely on PHP / MySQL, AJAX and jQuery
+Active CMS est un gestionnaire de contenu, vous pouvez éditer en toute simplicité une page Web à l'aide de votre navigateur. L’interface est orientée vers l’utilisateur. Colorée, il est structurée de manière familière... Cette application est extrêmement léger et ne pèse que 2.25 Mo sans l'editeur WYSIWYG, qui fait 3.1 Mo.;Active CMS is a content manager, you can easily edit a web page using your browser. The interface is user-oriented. Colored, it is structured so familiar ... This application is extremely light and weighs only 2.25 Mb without the WYSIWYG editor, which is 3.1 MB
+Pour télécharger l'application retourner vers cette;To download the application to return to this
+onglet téléchargement.;download tab.
+Si vous avez une remarque, un quelconque suggestion, veillez me le faire parvenir... que vous aimez bien, n'hésitez surtout pas à m'en faire part. Merci;If you have a comment, any suggestion, please send it to me ... that you like, please let me know. Thank you
+Fermer;Close
+Voici la liste de tout les utilisateurs inscrits sur le site.<br /> Dans la colonne Actions, vous pouvez activer, editer et supprimer un utilisateur !;Here is a list of all users registered on the site. <br /> In the Actions column, you can activate, edit and delete a user!
+Création d'une nouvelle page;Create a new page
+Titre de la page;Page Title
+Ceci et le titre de la page (Il sera affiché dans le navigateur);This and the title of the page (it will be displayed in the browser)
+Titre du menu;Menu Title
+Saisir le lien qui sera affiché dans le menu navigation;Enter the link to be displayed in the navigation menu
+Publier la page;Publish page
+Oui;Yes
+Non;No
+Contenu de la page;Page content
+Ajouter;Add
+ID;ID
+Menu;Menu
+Modification;Modified
+Publication;Publication
+Actions;Actions
+Cet utilisateur est désactivé !;This user is disabled!
+Modifier cette page;Edit this page
+Supprimer cette page !;Delete this page!
+Cet utilisateur est activé !;This user is on!
+Voici la liste des pages qui ont été crées.<br /> ;
+				 Dans la colonne Actions, vous pouvez activer, editer et supprimer une page !;Here is the list of pages that were created. <br /> In the Actions column, you can activate, edit and delete a page!
+Ceci est la configuration globale du site<br />;
+				 This is a info notification. Lorem ipsum dolor sit amet, consectetur adipiscing elit.;This is the overall configuration of the site <br /> This is a news reporting. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Paramètres du site;Site Settings
+Nom du site;Site name
+Nom de votre site;Name of your site
+Slogan;Slogan
+Décrivez en quelques mots, le contenu de votre ce site.;Briefly describe the content of your site.
+Email Administrateur;Email Administrator
+Cette adresse est utilisée par exemple, pour l'envoi des mail.;This address is used for example for sending mail.
+Keywords;Keywords
+info bulle;tooltip
+Description;Description
+Template;Template
+tmp;tmp
+Publier le site;Publish
+Seo URL;Seo URL
+Enregistrer les modifications;Save Changes
+Voici la liste de tout les utilisateurs inscrits sur le site.<br />;
+    			 Dans la colonne Actions, vous pouvez activer, editer et supprimer un utilisateur !;Here is a list of all users registered on the site. <br /> In the Actions column, you can activate, edit and delete a user!
+Nom et Prénom;Name and First Name
+Adresse Email;Email Address
+Permission;Permission
+Modifier cet utilisateur;Edit this user
+Supprimer cet utilisateur !;Delete this user!
+« préc;«Prev
+suiv »;next »
+Les modules sont désactivé ! <br />;
+  					  LES MODULES SONT DESACTIVE, VEUILLER MODIFIER LE FICHIER <a href="?action=ini">INI</a>, PAR TRUE OU FALSE !;The modules are disabled! <br /> MODULES ARE OFF, PLEASE CHANGE THE FILE <a href=\
+Modification de la page;Page Editing
+Ce fichier contient tout les paramètres qui définissant les paramètres de Active CMS <br />;
+    			 Ne touchez pas à ce fichier si vous ne savez pas exactement ce que vous faites !;This file contains all the parameters that define the parameters of CMS Active <br /> Do not touch this file if you do not know exactly what you are doing!
+Modifier;Edit
+Voici la liste des internautes inscrits dans la newsletters.<br /> Dans la colonne Actions, vous pouvez supprimer et envoyer un email pour les abonnées !;Here is the list of users registered in the newsletters. <br /> In the Actions column, you can delete and send an email to subscribe!
+Nom;Name
+Address Email;Email Address
+Inscription;Registration
+Lui envoyer un message;Send message
+Supprimer ce compte !;Delete this account!
+Envoi du Mail;Sending Mail
+Sujet;Subject
+Le sujet est important !;The subject is important!
+Message;Message
+Envoyer le message;Send message
+Gestionnaire de Template;Template Manager
+Voici la liste de tout les utilisateurs inscrits sur le site.<br /> ;
+				  Dans la colonne Actions, vous pouvez activer, editer et supprimer un utilisateur !;Here is a list of all users registered on the site. <br /> In the Actions column, you can activate, edit and delete a user!
+Ext;Ext
+Dérnière modification;Updated
+Taille;Size
+Modifier ce fichier !;Edit this file!
+Supprimer ce fichier !;Delete this file!
+Active CMS | Se connecter;Active CMS | Login
+Utilisateur : ;User:
+Mot de passe : ;Password:
+Se connecter;Login
+Accueil;Home
+Acceuil administration;Hospitality Administration
+Visualiser;View
+Visualiser le site;View site
+Se déconnecter;Logout
+Demande de soutien;Support request
+Info sur l'application;Info on the application
+Email;Email
+Page introuvable;Page Not Found
+La page que vous avez demandée n'existe plus ou vous n'avez pas les droit suffisant pour y accéder !<br />;
+		<a href="/activecms/admin/">Retourner vers la page d'accueil</a>;The page you requested no longer exists or you do not have permission to access it! <br /> <a href=\
+Redirection en cours...;Redirection in progress ...
+Le chemin du template est invalide ou introuvable !;
+Doc;Doc
+Documentation;Documentation
+BDD Site backups;BDD site backups
+Template manager;Template Manager
+		 Dans la colonne Actions, vous pouvez activer, editer et supprimer une page !;Here is the list of pages that were created. <br /> In the Actions column, you can activate, edit and delete a page!
+Publier/Cacher cette page !;Publish / Hide this page!
+Mettre à jour cette page.;Update this page.
+Bienvenue <a href="http://localhost/activecms/admin/user/list">admin</a>;Welcome <a href=\
+Paramètres des pages;Page settings
+Voici la liste des pages qui ont été crées.<br /> 
+		 Dans la colonne Actions, vous pouvez activer, editer et supprimer une page !;Here is the list of pages that were created. <br /> In the Actions column, you can activate, edit and delete a page!

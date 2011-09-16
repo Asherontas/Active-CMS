@@ -1,0 +1,14 @@
+<?php
+
+/*	  
+ *	Active CMS "CMS PRO EVOLUTIF"
+ *	copyright (c) 2009-2011 Active Developpement
+ *	Application : ActiveCMS Système de gestion de contenu
+ *	Auteur      : Achour Omar
+ *	Site web    : www.activedev.net
+ *	E-mail      : contact@activedev.net	
+*/
+
+#phpinfo(); // Get phpinfo
+
+?>

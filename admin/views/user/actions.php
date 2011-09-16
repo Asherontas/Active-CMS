@@ -1,0 +1,62 @@
+<?php
+
+if ( !defined('ADMINPATH')) exit('Warning !');
+
+include '../../core/core.php'; // FICHIER CONFIGURATION
+
+$post   = new SimpleSanitize( 'post', 'strict', 0 ); // INSTANCIATION : PROTECT POST FORM
+
+if ( !empty($_POST) AND $_POST != null ) {
+
+    // Delete user
+    if ( $post->getInt('delete_user_id') ) {
+
+        $UserID = $post->getInt('delete_user_id');
+        $Mysql->ExecuteSQL('DELETE FROM '.TBL_USERS.' WHERE id = '.$UserID );
+    }
+    // Delete page
+    if ( $post->getInt('delete_page_id') ) {
+
+        $PageID = $post->getInt('delete_page_id');
+        $Mysql->ExecuteSQL('DELETE FROM '.TBL_PAGES.' WHERE id = '.$PageID );
+    }
+    // Enable/Disable user
+    if ( $post->getInt('user_id') ) {
+
+        $UserID     = $post->getInt('user_id');
+        $UserStatus = $post->getInt('status');
+
+        if ( $UserStatus == '1' ) {
+            $UserStatus = '0';
+            $Mysql->ExecuteSQL('UPDATE '.TBL_USERS.' SET user_status = '.$UserStatus.' WHERE id = '.$UserID );
+        }
+        else {
+            $UserStatus = '1';
+            $Mysql->ExecuteSQL('UPDATE '.TBL_USERS.' SET user_status = '.$UserStatus.' WHERE id = '.$UserID );
+        }
+    }
+
+    // Enable/Disable page
+    if ( $post->getInt('page_id') ) {
+
+        $PageID     = $post->getInt('page_id');
+        $PageStatus = $post->getInt('status');
+
+        if ( $PageStatus == '1' ){
+            $PageStatus = '0';
+            $Mysql->ExecuteSQL('UPDATE '.TBL_PAGES.' SET page_status = '.$PageStatus.' WHERE id = '.$PageID );
+        }
+        else {
+            $PageStatus = '1';
+            $Mysql->ExecuteSQL('UPDATE '.TBL_PAGES.' SET page_status = '.$PageStatus.' WHERE id = '.$PageID );
+        }
+    }
+
+    // Delete Subscrib user
+     if ( $post->getInt('delete_sub_id') ) {
+
+        $SubscribeID = $post->getInt('delete_sub_id');
+        $Mysql->ExecuteSQL('DELETE FROM '.TBL_MAILING.' WHERE id = '.$SubscribeID );
+    }
+
+}
